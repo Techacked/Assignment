@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "build-storybook": "storybook build"
+
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -16,8 +18,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
-    "@storybook/react": "^8.4.7",
-    "@storybook/react-vite": "^8.4.7",
+    "@storybook/react": "^9.1.0",
+    "@storybook/react-vite": "^9.1.0",
     "@tailwindcss/postcss": "^4.1.14",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
@@ -32,11 +34,11 @@
     "globals": "^16.4.0",
     "jsdom": "^27.0.0",
     "postcss": "^8.5.6",
-    "storybook": "^8.4.7",
+    "storybook": "^9.1.0",
     "tailwindcss": "^4.1.14",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
-    "vite": "^7.1.7",
+    "vite": "^6.0.0",
     "vitest": "^3.2.4"
   }
 }
